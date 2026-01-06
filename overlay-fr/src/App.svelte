@@ -3,7 +3,11 @@
 </script>
 
 <main class="w-screen h-screen bg-transparent">
-  <nav class="fixed top-0 left-0 w-full bg-black/30 backdrop-blur-md">
+  <nav
+    class="fixed top-0 left-0 w-full
+           bg-black/40 backdrop-blur-md
+           shadow-lg shadow-black/30"
+  >
     <div class="flex items-center justify-center py-3">
       <h1
         class="text-3xl font-bold text-green-400 tracking-wide
@@ -12,6 +16,12 @@
         {name}
       </h1>
     </div>
+
+    <div
+      class="h-[2px] w-full
+             bg-gradient-to-r
+             from-transparent via-green-400 to-transparent"
+    ></div>
   </nav>
 </main>
 
