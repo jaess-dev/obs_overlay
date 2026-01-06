@@ -7,10 +7,17 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import uvicorn
 
-app = FastAPI()
-app.mount("/assets", StaticFiles(directory="resources/assets"), name="assets")
+STATIC_BASE = "resources/gen"
 
-templates = Jinja2Templates(directory="resources")
+app = FastAPI()
+app.mount(
+    "/assets", StaticFiles(
+        directory=f"{STATIC_BASE}/assets",
+    ),
+    name="assets"
+)
+
+templates = Jinja2Templates(directory=STATIC_BASE)
 
 
 @app.get("/")
