@@ -1,12 +1,17 @@
 # OBS Twitch Overlay
 
+[![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://www.twitch.tv/JaessDev)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@JaessDev)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/JaessDev)
+
+
 Building an overlay for twitch
 using python as a backend and static html pages with some svelte for state.
 
 
 ## Building in Stream
 
-This project will be build in my stream every Tuesday, starting on Jan. 6 2026, 8 PM.
+This project will be build in [my stream](https://twitch.tv/jaessdev) every Tuesday, starting on Jan. 6 2026, 8 PM.
 I will also upload videos from the stream but cannot promise a constant schedule there.
 
 In the stream itself, the overlay will be build and also displayed while it is build. 
