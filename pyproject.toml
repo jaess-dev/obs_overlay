@@ -1,0 +1,11 @@
+[project]
+name = "overlay"
+version = "0.1.0"
+description = "A project for defining and editing your own OBS overlays"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "jinja2>=3.1.6",
+    "uvicorn[standard]>=0.40.0",
+]
