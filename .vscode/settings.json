@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.env*": true,
+        "**/.python-version": true,
+        "**/.venv": true,
+        "**/uv.lock": true,
+        "**/package-lock.json": true,
+        "**/node_modules": true,
+    }
+}
